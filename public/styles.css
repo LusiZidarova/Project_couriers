@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
+
+:root {
+    --main-blue: #234465;
+    --main-orange: #FFA000;
+}
+
+footer {
+    width: 100%;
+    background-color: var(--main-blue);
+    color: white;
+}
+
+footer p {
+    padding: 3%;
+    border-top: 2px solid var(--main-blue);
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    border-top: 2px solid var(--main-orange);
+}
+
+h1 {
+    text-align: center;
+    color: var(--main-orange);
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form div input, label {
+    margin: 0 auto;
+    color: var(--main-blue);
+    text-align: center;
+}
+
+form div label {
+    font-weight: bold;
+}
+
+form div input {
+    padding: 1%;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid var(--main-blue);
+}
+
+form div {
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+form textarea {
+    color: var(--main-blue);
+    width: 50%;
+    padding: 2%;
+    border: 1px solid var(--main-blue);
+    resize: none;
+    height: 15vh;
+    overflow: hidden;
+    border-radius: 15px;
+    text-align: center;
+}
+
+form select {
+    width: 30%;
+    border: 1px solid var(--main-blue);
+    color: var(--main-blue);
+    padding: 0.5%;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+}
+
+form select option {
+    text-align: center;
+    border-radius: 15px;
+    color: var(--main-blue);
+}
+
+main {
+    width: 100%;
+    color: var(--main-blue);
+}
+
+main h1 {
+    padding: 2%;
+}
+
+main .about-us {
+    padding: 1%;
+    width: 100%;
+}
+
+main .about-us div {
+    display: flex;
+}
+
+main .about-us div img {
+    width: 200px;
+    border-radius: 15px;
+    flex: 1;
+    vertical-align: top;
+}
+
+main .about-us h1 {
+    text-align: left;
+    color: var(--main-blue);
+}
+
+main .about-us p {
+    padding: 2%;
+    font-size: 18px;
+}
+
+main .container {
+    padding: 1%;
+    display: flex;
+    color: var(--main-blue);
+    background-color: white;
+}
+
+main .container p, .form-info {
+    text-align: center;
+    color: var(--main-blue);
+}
+
+main .container p a, .form-info a {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--main-orange);
+}
+
+main .container p a:hover, .form-info a {
+    text-decoration: none;
+}
+
+main p.message {
+    width: 100%;
+    text-align: center;
+    color: darkred;
+    font-style: italic;
+    margin: 1%;
+}
+
+form div button {
+    padding: 2%;
+    width: 20%;
+    border: 1px solid var(--main-blue);
+    background-color: white;
+    color: var(--main-orange);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+span{
+    color: var(--main-orange);
+}
+
+form div button:hover {
+    border: 1px solid white;
+    border-bottom: 1px solid var(--main-orange);
+    color: var(--main-blue);
+    text-decoration: underline;
+    cursor: pointer;
+}
